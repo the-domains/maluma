@@ -1,28 +1,40 @@
-name: Maluma
+layout_spectrum: 0.2908938
 favicon: null
-layout_spectrum: 0.6502530565485358
-typography_spectrum: 0.9165602843277156
-cta:
-  domain: null
-  bucket: null
-  version: null
+name: Maluma
+purpose: []
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
+cta:
+  version: null
+  bucket: null
+  domain: null
 color:
+  brandStrength: 1
+  saturation: 0.572951901005581
   brandColors:
     - '#ffffff'
     - '#58595b'
     - '#cacbcb'
     - '#a1a1a2'
     - '#818284'
-  brandStrength: 1
-  lightness: 0.32826122734695673
-  saturation: 0.572951901005581
+  lightness: 0.3282612273469567
   rhythmicContrast: 0.0330626405775547
-purpose: []
+typography_spectrum: 0.9165602843277156
